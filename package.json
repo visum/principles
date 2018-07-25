@@ -1,0 +1,23 @@
+{
+  "name": "principles",
+  "version": "1.0.0",
+  "description": "my collection of principles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visum/principles.git"
+  },
+  "author": "bdhowe@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/visum/principles/issues"
+  },
+  "homepage": "https://github.com/visum/principles#readme",
+  "dependencies": {
+    "markdown-it": "^8.4.2",
+    "rimraf": "^2.6.2"
+  }
+}

@@ -3,6 +3,10 @@ const path = require('path');
 const md = new require("markdown-it")();
 const rimraf = require('rimraf');
 
+const PRINCIPLES_DIR = "./principles";
+const QUESTIONS_DIR = "./questions";
+const UNRIPE_DIR = "./unripe";
+
 // clean up
 rimraf("./lib");
 fs.mkdir('./lib');
